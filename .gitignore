@@ -1,6 +1,8 @@
 # Audios in folder audio
 /audio/*
 !/audio/.gitkeep
+!/audio/test
+!/audio/test-2
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
