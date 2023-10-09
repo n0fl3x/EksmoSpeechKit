@@ -16,7 +16,7 @@ load_dotenv(find_dotenv())
 
 
 def file_to_text(filename: str = None) -> None or dict:
-    """Функция, выводащая в консоль результат транскрипизации аудиофайла."""
+    """Функция транскрипизации готового аудиофайла в текст."""
 
     if type(filename) != str or not filename:
         print('Incorrect or empty filename.')
